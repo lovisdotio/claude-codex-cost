@@ -1,5 +1,9 @@
 # Claude + Codex Cost
 
+[![VS Marketplace](https://img.shields.io/visual-studio-marketplace/v/lovisdotio.claude-codex-cost?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=lovisdotio.claude-codex-cost) [![Installs](https://img.shields.io/visual-studio-marketplace/i/lovisdotio.claude-codex-cost)](https://marketplace.visualstudio.com/items?itemName=lovisdotio.claude-codex-cost)
+
+**Now available on the VS Code Marketplace.**
+
 See what **Claude Code** and **Codex** cost you since the 1st of the month, right in the VS Code status bar.
 
 ![Preview](media/preview.png)
