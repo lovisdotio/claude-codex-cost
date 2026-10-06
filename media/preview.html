@@ -1,0 +1,45 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;background:#1e1e1e;font:13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#ccc}
+  .stage{width:760px;height:300px;position:relative;background:#1e1e1e;overflow:hidden}
+  .editor{position:absolute;inset:0 0 22px 0;padding:18px 24px;font:13px Menlo,monospace;color:#6a9955;line-height:20px}
+  .editor .k{color:#569cd6}.editor .s{color:#ce9178}.editor .n{color:#9cdcfe}
+  .bar{position:absolute;left:0;right:0;bottom:0;height:22px;background:#181818;border-top:1px solid #2b2b2b;display:flex;align-items:center;justify-content:flex-end;gap:2px;padding:0 6px;font-size:12px}
+  .bar .it{padding:0 6px;height:22px;display:flex;align-items:center;gap:5px;color:#ccc}
+  .bar .hl{background:#ffffff1f;border-radius:3px}
+  .bar .left{margin-right:auto}
+  .card{position:absolute;right:120px;bottom:30px;width:330px;background:#252526;border:1px solid #454545;border-radius:4px;box-shadow:0 4px 16px #0008;padding:10px 12px;color:#ccc}
+  .card b{color:#e7e7e7}
+  table{border-collapse:collapse;width:100%;margin:8px 0}
+  td,th{padding:3px 6px;border-bottom:1px solid #3c3c3c;text-align:left;font-weight:normal}
+  th{color:#999}
+  td.r,th.r{text-align:right}
+  .note{color:#9d9d9d;font-size:12px;line-height:17px}
+  svg{width:14px;height:14px}
+</style></head><body>
+<div class="stage">
+  <div class="editor">
+    <div><span class="k">const</span> <span class="n">agents</span> = [<span class="s">'claude'</span>, <span class="s">'codex'</span>];</div>
+    <div>// how much did this month cost me?</div>
+  </div>
+  <div class="card">
+    <div><b>Cost since October 1</b></div>
+    <table>
+      <tr><th></th><th class="r">Cost</th><th class="r">Volume</th></tr>
+      <tr><td>Claude Code</td><td class="r">$278</td><td class="r">737M tokens</td></tr>
+      <tr><td>Codex</td><td class="r">$822</td><td class="r">289M tokens</td></tr>
+      <tr><td><b>Total</b></td><td class="r"><b>$1,100</b></td><td></td></tr>
+    </table>
+    <div class="note">Estimate at public API prices (ccusage), not your actual bill. This machine only. Updated 09:52 — click to refresh.</div>
+  </div>
+  <div class="bar">
+    <div class="it left">⎇ main</div>
+    <div class="it hl">
+      <svg viewBox="0 0 16 16" fill="none" stroke="#ccc" stroke-width="1.2"><rect x="1.5" y="3.5" width="13" height="9" rx="1"/><path d="M1.5 6.5h13"/><path d="M4 10h3"/></svg>
+      Claude $278 · Codex $822
+    </div>
+    <div class="it">🔔</div>
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,25 @@
+{
+  "name": "@ccusage/ccusage-darwin-x64",
+  "version": "20.0.26",
+  "description": "Native ccusage binary for macOS x64",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccusage/ccusage.git",
+    "directory": "packages/ccusage-darwin-x64"
+  },
+  "files": [
+    "bin/ccusage"
+  ],
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {}
+}

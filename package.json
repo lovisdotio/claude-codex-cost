@@ -1,0 +1,20 @@
+{
+  "name": "claude-codex-cost",
+  "displayName": "Claude + Codex Cost",
+  "description": "See what Claude Code and Codex cost you since the 1st of the month, right in the status bar.",
+  "version": "1.0.0",
+  "publisher": "lovisdotio",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": { "type": "git", "url": "https://github.com/lovisdotio/claude-codex-cost" },
+  "keywords": ["claude", "claude code", "codex", "cost", "usage", "ccusage"],
+  "categories": ["Other"],
+  "engines": { "vscode": "^1.90.0" },
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "commands": [
+      { "command": "claudeCodexCost.refresh", "title": "Claude + Codex Cost: Refresh" }
+    ]
+  }
+}
