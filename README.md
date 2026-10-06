@@ -12,13 +12,13 @@ See what **Claude Code** and **Codex** cost you since the 1st of the month, righ
 
 ## Install
 
-Download `claude-codex-cost.vsix` from the [latest release](https://github.com/lovisdotio/claude-codex-cost/releases/latest), then:
+Search **Claude + Codex Cost** in the VS Code Extensions view, or get it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=lovisdotio.claude-codex-cost). From a terminal:
 
 ```sh
-code --install-extension claude-codex-cost.vsix
+code --install-extension lovisdotio.claude-codex-cost
 ```
 
-Or in VS Code: Extensions view → `…` → **Install from VSIX…**. Then run **Developer: Reload Window**.
+Offline install: download `claude-codex-cost.vsix` from the [latest release](https://github.com/lovisdotio/claude-codex-cost/releases/latest), then `code --install-extension claude-codex-cost.vsix`.
 
 Works on macOS, Linux and Windows (x64 and arm64).
 
